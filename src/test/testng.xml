@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All6Class_Suite">
+  <test thread-count="5" name="AllClasses6_Test">
+    <classes>
+      <class name="testCases.Cart_Page_Test"/>
+      <class name="testCases.Complete_Page_Test"/>
+      <class name="testCases.LoginPage_Test"/>
+      <class name="testCases.Checkout_Step_Two_Page_Test"/>
+      <class name="testCases.Checkout_Step_One_Page_Test"/>
+      <class name="testCases.Inventory_Page_Test"/>
+    </classes>
+  </test> <!-- AllClasses6_Test -->
+</suite> <!-- All6Class_Suite -->

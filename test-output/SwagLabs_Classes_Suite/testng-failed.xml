@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SwagLabs_Classes_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AllTestCases_Test(failed)">
+    <classes>
+      <class name="testCases.Checkout_Step_Two_Page_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="closeBrowser"/>
+          <include name="verifyAppLogoTitleTest"/>
+        </methods>
+      </class> <!-- testCases.Checkout_Step_Two_Page_Test -->
+      <class name="testCases.LoginPage_Test">
+        <methods>
+          <include name="verifyTitleofApplicationTest"/>
+          <include name="closeBrowser"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCases.LoginPage_Test -->
+      <class name="testCases.Cart_Page_Test">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyAppLogoTitleTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCases.Cart_Page_Test -->
+      <class name="testCases.Inventory_Page_Test">
+        <methods>
+          <include name="verifyAppLogoTitleTest"/>
+          <include name="setUp"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testCases.Inventory_Page_Test -->
+      <class name="testCases.Checkout_Step_One_Page_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyAppLogoTitleTest"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testCases.Checkout_Step_One_Page_Test -->
+    </classes>
+  </test> <!-- AllTestCases_Test(failed) -->
+</suite> <!-- Failed suite [SwagLabs_Classes_Suite] -->
